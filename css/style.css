@@ -4,8 +4,67 @@ body {
   line-height: 24px;
   color: #000000;
 
-  /*  Пример подключения изображения из папки  img */
+  /*  Пример подключения изображения из папки  img
+    background-image: url("../img/bg-promo.png");
+    background-repeat: no-repeat;
+    background-position: center top; */
+
+  background-color: white;
+  margin:0px;
+}
+.container{
+    padding-left:30px;
+    padding-right:30px;
+    margin:0 auto;
+    width:1020px;
+}
+.main-header .main-menu {
+  float: right;
+  width: 680px;
+  margin-top: 25px;
+  height: 40px;
+}
+.main-header .logo {
+  float: left;
+  width: 180px;
+  min-height: 100px;
+}
+.main-header{
+  padding: 0 auto;
+  padding-top: 35px;
+  background:#6451d5;
+  min-height: 650px;
   background-image: url("../img/bg-promo.png");
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center center;
+}
+.container .header-top{
+  height:82px;
+  width: auto;
+}
+.container .promo{
+  margin-top:93px;
+  width:450px;
+  height: 395px;
+/*  background: green;*/
+}
+.features{
+  padding-top:49px;
+  padding-bottom:45px;
+  background-color: #efefef;
+}
+.features-item {
+  min-height: 90px;
+  width: 320px;
+  float:left;
+  margin-right:30px;
+  background: red;
+}
+.features-item:last-child{
+  margin-right:0px;
+}
+.features .container::after {
+  display: table;
+  clear: both;
+  content: "";
 }
