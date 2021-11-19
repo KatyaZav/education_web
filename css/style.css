@@ -67,34 +67,67 @@ body {
   clear: both;
   content: "";
 }
+.study{
+  padding-top:13px;
+  background-color:white;
+}
 .study .container{
-  padding:50px 0px 0px 74px;
+  padding:0px 5px 0px 74px;
   background-color: white;
 }
 .study .contacts-title{
   font-family:Trebuchet, Arial, sans-serif;
   font-weight: bold;
   font-size: 45px;
-  padding-bottom:55px;
+  min-height: 50px;
+  line-height: 50px;
+  margin-bottom:60px;
+  margin-left: -35px;
+  margin-right: 35px;
 }
 .study table{
+  margin-left: -35px;
+  margin-right: 35px;
   border-collapse: collapse;
 }
 .study td{
-  padding-left:25px;
+  width: 540px;
+  padding-left:30px;
   font-size:22px;
   border:2px solid #a7a7a7;
+  padding-right: 60px;
+  font-family: Trebuchet, Arial, sans-serif;
+  font-size: 22px;
 }
 .study tr{
-  height: 100px;
-}
-.study .table-title{
-  font-size:18px;
-  height:72px;
+  height: 102px;
 }
 .study::after{
   display: table;
   clear: both;
   content: "";
-  height: 80px;
+  height: 70px;
+}
+.study .table-title{
+  background-color: #efefef;
+  color: #404040;
+}
+.study .table-name{
+  width:287px;
+  padding-right: 0px;
+}
+.study .table-lenght{
+  width: 185px;
+  padding-right: 0px;
+}
+.study .table-title{
+  height:72px;
+}
+.table-text{
+  padding-right:10px;
+}
+.study .table-text, .study .table-title td/*.study .table-title td:first-child,
+ .study .table-lenght td:first-child*/{
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 18px;
 }
