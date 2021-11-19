@@ -54,11 +54,10 @@ body {
   background-color: #efefef;
 }
 .features-item {
-  min-height: 90px;
+  min-height: 190px;
   width: 320px;
   float:left;
   margin-right:30px;
-  background: red;
 }
 .features-item:last-child{
   margin-right:0px;
@@ -67,4 +66,35 @@ body {
   display: table;
   clear: both;
   content: "";
+}
+.study .container{
+  padding:50px 0px 0px 74px;
+  background-color: white;
+}
+.study .contacts-title{
+  font-family:Trebuchet, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  padding-bottom:55px;
+}
+.study table{
+  border-collapse: collapse;
+}
+.study td{
+  padding-left:25px;
+  font-size:22px;
+  border:2px solid #a7a7a7;
+}
+.study tr{
+  height: 100px;
+}
+.study .table-title{
+  font-size:18px;
+  height:72px;
+}
+.study::after{
+  display: table;
+  clear: both;
+  content: "";
+  height: 80px;
 }
