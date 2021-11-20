@@ -46,15 +46,14 @@ body {
   margin-top:93px;
   width:450px;
   height: 395px;
-/*  background: green;*/
 }
 .features{
-  padding-top:49px;
+  padding-top:50px;
   padding-bottom:45px;
   background-color: #efefef;
 }
 .features-item {
-  min-height: 190px;
+  min-height: 187px;
   width: 320px;
   float:left;
   margin-right:30px;
@@ -72,7 +71,7 @@ body {
   background-color:white;
 }
 .study .container{
-  padding:0px 5px 0px 74px;
+  padding:0px 0px 0px 60px; /*5 74*/
   background-color: white;
 }
 .study .contacts-title{
@@ -82,12 +81,12 @@ body {
   min-height: 50px;
   line-height: 50px;
   margin-bottom:60px;
-  margin-left: -35px;
-  margin-right: 35px;
+  margin-left: -30px;
+  margin-right: 30px;
 }
 .study table{
-  margin-left: -35px;
-  margin-right: 35px;
+  margin-left: -30px;
+  margin-right: 30px;
   border-collapse: collapse;
 }
 .study td{
@@ -130,4 +129,41 @@ body {
  .study .table-lenght td:first-child*/{
   font-family: Tahoma, Arial, sans-serif;
   font-size: 18px;
+}
+.contacts{
+  padding-top: 13px;
+  background-color: #efefef;
+  margin:0px;
+}
+.contacts .container{
+  min-height: 479px;
+}
+.contacts .contacts-title{
+  font-size:45px;
+  line-height: 50px;
+  font-family: Trebuchet, Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+.contacts .contacts-form{
+  font-family: Trebuchet, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  float:left;
+}
+.contacts .contacts-form table{
+  padding-top: 70px;
+  width: 640px;
+  min-height: 369px;
+}
+.contacts .contacts-instruction{
+  width: 320px;
+  min-height: 348px;
+  float:right;
+}
+.contacts::after{
+  display: table;
+  clear: both;
+  content: "";
+  height: 0px;
 }
