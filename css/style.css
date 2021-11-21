@@ -137,6 +137,7 @@ body {
 }
 .contacts .container{
   min-height: 479px;
+  margin-bottom: 0px;
 }
 .contacts .contacts-title{
   font-size:45px;
@@ -166,4 +167,57 @@ body {
   clear: both;
   content: "";
   height: 0px;
+}
+.main-footer{
+  padding-top: 65px;
+  padding-bottom: 77px;
+  background-color:#2a2546;
+}
+.main-footer .container{
+  min-height: 165px;
+  margin-top: 0px;
+  background-color: red;
+}
+.main-footer .footer-top{
+  background-color: blue;
+}
+.main-footer .footer-address{
+  width: 300px;
+  margin-right: 40px;
+  float:left;
+  min-height: 208px;
+  background-color: green;
+}
+.main-footer .footer-menu{
+  margin:0px;
+  padding:0px;
+  color:white;
+  background-color: black;
+  float: left;
+  width: 180px;
+  margin-top: 25px;
+  min-height: 207px;
+  font-size: 18px;
+  font-family:Tahoma;
+}
+.main-footer .footer-menu h3{
+  font-size: 19px;
+  pading:0px;
+  margin: 0px;
+}
+.main-footer .footer-menu ul{
+  padding: 0px;
+  margin:0px;
+}
+.footer-top::after{
+  display: table;
+  clear: both;
+  content: "";
+}
+.footer-menu:last-child {
+  float: right;
+  width: 135px;
+}
+.main-footer ul{
+  list-style: none;
 }
