@@ -90,12 +90,15 @@ body {
   border-collapse: collapse;
 }
 .study td{
-  width: 540px;
+  line-height: 30px;
+  vertical-align: top;
+  padding-top:20px;
+  width: 520px;
   padding-left:30px;
   font-size:22px;
   border:2px solid #a7a7a7;
   padding-right: 60px;
-  font-family: Trebuchet, Arial, sans-serif;
+  font-family: Trebuchet;/*, Arial, sans-serif;*/
   font-size: 22px;
 }
 .study tr{
@@ -112,11 +115,11 @@ body {
   color: #404040;
 }
 .study .table-name{
-  width:287px;
+  width:292px;
   padding-right: 0px;
 }
 .study .table-lenght{
-  width: 185px;
+  width: 170px;
   padding-right: 0px;
 }
 .study .table-title{
@@ -134,6 +137,7 @@ body {
   padding-top: 13px;
   background-color: #efefef;
   margin:0px;
+  padding-bottom: 73px;
 }
 .contacts .container{
   min-height: 479px;
@@ -168,6 +172,67 @@ body {
   content: "";
   height: 0px;
 }
+.contacts-form td {
+  padding-bottom: 16px;
+}
+.contacts .buttontn{
+  width:510px;
+  height: 70px;
+  font-size: 20px;
+  font-weight: bold;
+  padding:10px auto;
+  color:white;
+}
+.contacts-form .title{
+  width: 90px;
+  padding-right: 20px;
+  width: 90px;
+  padding-right: 20px;
+  vertical-align: top;
+  text-align: right;
+}
+.contacts-form .field {
+  width: 470px;
+}
+.contacts-instruction h3 {
+  margin: 0;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 24px;
+}
+.contacts-instruction p {
+  margin: 0;
+  margin-bottom: 25px;
+  color: #404040;
+  font-size: 18px;
+  line-height: 24px;
+}
+.contacts-instruction .contacts-alert {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.contacts-form input[type="text"],
+.contacts-form textarea {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  padding: 13px 23px;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  line-height: 24px;
+  outline: none;
+}
+.contacts-form textarea {
+  min-height: 105px;
+  resize: none;
+}
+
+.btn-viol{
+  background-color: #382d78;
+}
 .main-footer{
   padding-top: 65px;
   padding-bottom: 77px;
@@ -176,23 +241,19 @@ body {
 .main-footer .container{
   min-height: 165px;
   margin-top: 0px;
-  background-color: red;
 }
 .main-footer .footer-top{
-  background-color: blue;
 }
 .main-footer .footer-address{
   width: 300px;
   margin-right: 40px;
   float:left;
   min-height: 208px;
-  background-color: green;
 }
 .main-footer .footer-menu{
   margin:0px;
   padding:0px;
   color:white;
-  background-color: black;
   float: left;
   width: 180px;
   margin-top: 25px;
@@ -220,4 +281,18 @@ body {
 }
 .main-footer ul{
   list-style: none;
+}
+.footer-menu li{
+  margin-top:20px;
+}
+.footer-menu li:first-child{
+  margin-top:50px;
+}
+.footer-menu a{
+  text-decoration: none;
+  color:#bcb3f2;
+}
+.footer-address p{
+  margin-top:70px;
+  color:white;
 }
